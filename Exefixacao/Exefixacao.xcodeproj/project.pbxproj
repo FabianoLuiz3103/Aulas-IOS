@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC33ECF12D922C45000FED64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33ECF02D922C45000FED64 /* main.swift */; };
 		AC33ECFA2D9230D2000FED64 /* Enfermeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33ECF92D9230D2000FED64 /* Enfermeira.swift */; };
+		AC33ECFC2D923E6B000FED64 /* EnfermeiraChefe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33ECFB2D923E6B000FED64 /* EnfermeiraChefe.swift */; };
+		AC33ECFE2D923FB7000FED64 /* Operacional.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33ECFD2D923FB7000FED64 /* Operacional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		AC33ECED2D922C45000FED64 /* Exefixacao */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exefixacao; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC33ECF02D922C45000FED64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AC33ECF92D9230D2000FED64 /* Enfermeira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enfermeira.swift; sourceTree = "<group>"; };
+		AC33ECFB2D923E6B000FED64 /* EnfermeiraChefe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnfermeiraChefe.swift; sourceTree = "<group>"; };
+		AC33ECFD2D923FB7000FED64 /* Operacional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operacional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				AC33ECF02D922C45000FED64 /* main.swift */,
 				AC33ECF92D9230D2000FED64 /* Enfermeira.swift */,
+				AC33ECFB2D923E6B000FED64 /* EnfermeiraChefe.swift */,
+				AC33ECFD2D923FB7000FED64 /* Operacional.swift */,
 			);
 			path = Exefixacao;
 			sourceTree = "<group>";
@@ -124,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC33ECF12D922C45000FED64 /* main.swift in Sources */,
+				AC33ECFE2D923FB7000FED64 /* Operacional.swift in Sources */,
+				AC33ECFC2D923E6B000FED64 /* EnfermeiraChefe.swift in Sources */,
 				AC33ECFA2D9230D2000FED64 /* Enfermeira.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

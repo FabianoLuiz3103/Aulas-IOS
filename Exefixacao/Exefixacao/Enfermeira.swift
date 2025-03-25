@@ -2,12 +2,10 @@
 //  Enfermeira.swift
 //  Exefixacao
 //
-//  Created by Usuário Convidado on 24/03/25.
-//
 
 import Foundation
 
-class Enfermeira {
+class Enfermeira: Operacional{
     
     var nome:String
     var salario:Double
@@ -28,6 +26,10 @@ class Enfermeira {
         self.coren = coren
     }
     
+    func validar() {
+        print("Sempre checar o nome do paciente e nascimento")
+    }
+    
     func toString()-> String {
         return "Nome: \(self.nome)\n Salário: R$\(self.salario)\n Plantão: \(self.plantao)\n Coren: \(self.coren)"
     }
@@ -37,7 +39,12 @@ class Enfermeira {
     }
     
     func aplicarMedicamento(paciente: String, medicamento: String){
-        print("A enfermeira \(self.nome) aplicando \(medicamento) no paciente \(paciente)")
+        print("A enfermeira \(self.nome) está aplicando \(medicamento) no paciente \(paciente)")
+    }
+    
+    //Overload
+    func aplicarMedicamento(medicamento: String){
+        print("A enfermeira \(self.nome) está aplicando \(medicamento)")
     }
     
     func isHiperglicemia(indiceGlicemico: Float) -> Bool {
